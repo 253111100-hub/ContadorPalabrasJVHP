@@ -1,5 +1,5 @@
 import sys
-from PyQt6 import QtWidgets, uic
+from PyQt5 import QtWidgets, uic
 
 class contadorPalabras(QtWidgets.QMainWindow):
     def __init__(self):
