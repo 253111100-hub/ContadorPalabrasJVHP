@@ -20,7 +20,6 @@ class contadotPalabras(QtWidgets.QMainWindow):
         cantidadPalabras = len(textoSeparado)
         self.tvPalabras.setText(f"Plabras: {cantidadPalabras}")
         
-        
         totalCaracteres = 0
         for palabra in textoSeparado:
             totalCaracteres += len(palabra)
